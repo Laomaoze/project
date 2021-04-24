@@ -67,7 +67,7 @@ def calculate_command(update: Update, context: CallbackContext) -> None:
         calories = time*550
     elif types == "golf":
         calories = time*350
-    elif types == "volleyboy":
+    elif types == "volleyball":
         calories = time*500
     else:
         update.message.reply_text('The sport is not recorded ')
