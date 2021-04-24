@@ -55,7 +55,7 @@ def calculate_command(update: Update, context: CallbackContext) -> None:
         calories = time*350
     elif types == "swimming":
         calories = time*700
-    elif types == "bycycle":
+    elif types == "bicycle":
         calories = time*260
     elif types == "skating":
         calories = time*460
